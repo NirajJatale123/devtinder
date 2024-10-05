@@ -69,7 +69,7 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "start": "src/app.js"
+    "nodemon": "src/app.js"
   },
   "author": "NJ",
   "license": "ISC",

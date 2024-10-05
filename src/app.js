@@ -13,6 +13,18 @@ app.use("/test", (req,res) => {
     res.send("Hello route");
 });
 
-app.listen(3000);
 
-console.log("server is running on port 40000");
+app.get("/userGetData",(req,res)=>{
+console.log("Data sent successfully");
+
+res.send("Data sent successfully");
+
+});
+
+app.post("/UserInsertData",(req,res) =>{
+res.send("data inserted successfully");
+
+});
+  app.listen(4000);
+
+console.log("server is running on port 4000");
