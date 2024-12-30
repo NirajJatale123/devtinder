@@ -25,6 +25,11 @@ app.post("/UserInsertData",(req,res) =>{
 res.send("data inserted successfully");
 
 });
+
+app.delete("/UserdeleteData",(req,res) =>{
+  res.send("data deleted successfully");
+  
+  });
   app.listen(4000);
 
 console.log("server is running on port 4000");
